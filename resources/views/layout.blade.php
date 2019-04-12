@@ -4,13 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Hello world</title>
+    <title>Layout title</title>
 
 </head>
 <body>
-@foreach($tasks as $task)
-    <div>{{$task->body}}</div>
-@endforeach
-
+    @yield('content')
 </body>
 </html>
